@@ -1,2 +1,9 @@
 # Team-PathFinders
-Machine Learing software to detect if Leafs are dying or rotten.
+
+Senior Seminar in Computer Sci
+
+##  Problem Statement
+
+Using AI-Powered Drone/AI Software to collect data and detech dying leaves
+
+## Technologies
