@@ -4,7 +4,7 @@ Senior Seminar in Computer Science
 
 ##  Problem Statement
 
-Using AI-Powered Drone/AI Software to collect data and detech dying leaves
+Using AI-Powered Drone/AI Software to collect data and detech dying leaves and living leaves 
 
 ## Technologies
     Jupyter notebook - Used as a python IDE
