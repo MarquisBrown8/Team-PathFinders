@@ -1,6 +1,6 @@
 # Team-PathFinders
 
-Senior Seminar in Computer Sci
+Senior Seminar in Computer Science 
 
 ##  Problem Statement
 
