@@ -1,0 +1,16 @@
+from PIL import Image
+import os
+
+def resize_images(folder, size=(224, 224)):
+    for file in os.listdir(folder):
+        if file.lower().endswith((".jpg", ".jpeg", ".png")):
+            path = os.path.join(folder, file)
+            img = Image.open(path).convert("RGB")
+            img = img.resize(size)
+            img.save(path)
+
+resize_images("Dying Leaves Training")
+resize_images("Living Leaves Training")
+resize_images("Dying Leaves Value")
+resize_images("Living Leaves Value")
+resize_images("Test Images")
