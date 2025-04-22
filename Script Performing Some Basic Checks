@@ -1,0 +1,12 @@
+#This script is performing some basic checks on your current working directory and whether the Dataset folder exists in that directory
+import os
+
+# Print the current working directory
+print("Current directory:", os.getcwd())
+
+# Check if the Dataset folder exists
+dataset_path = "Dataset"
+if os.path.exists(dataset_path):
+    print("✅ Dataset folder found. Contents:", os.listdir(dataset_path))
+else:
+    print("❌ 'Dataset' folder not found.")
