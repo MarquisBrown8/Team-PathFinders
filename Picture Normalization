@@ -11,6 +11,6 @@ def resize_images(folder, size=(224, 224)):
 
 resize_images("Dying Leaves Training")
 resize_images("Living Leaves Training")
-resize_images("Dying Leaves Value")
-resize_images("Living Leaves Value")
+resize_images("Dying Leaves Valid")
+resize_images("Living Leaves Valid")
 resize_images("Test Images")
