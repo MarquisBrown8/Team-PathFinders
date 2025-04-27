@@ -1,0 +1,5 @@
+from utils.plots import plot_results  # plot results.txt as results.png
+Image(filename='runs/train/yolov5s_results2/results.png', width=1000)
+
+##Import a function that visualizes training results.
+##Display the visualization (an image) within the Jupyter Notebook.
