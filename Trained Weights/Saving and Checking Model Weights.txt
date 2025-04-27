@@ -1,0 +1,4 @@
+%ls runs/
+
+##trained weights are saved in the runs/ folder. Then %ls runs/ lists everything in that folder, showing the saved model files after training.
+

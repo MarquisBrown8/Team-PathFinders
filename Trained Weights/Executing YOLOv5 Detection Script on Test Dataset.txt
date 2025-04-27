@@ -1,0 +1,4 @@
+%cd /content/yolov5/
+!python detect.py --weights runs/train/yolov5s_results2/weights/best.pt --img 416 --conf 0.35 --source {dataset.location}/test/images/
+
+##This code snippet is the core of the inference process. It uses the trained YOLOv5 model to process test images, detect objects within them, and then store the results. The results, including bounding boxes around detected objects and their confidence scores, are typically saved in a new folder within the runs/detect directory.

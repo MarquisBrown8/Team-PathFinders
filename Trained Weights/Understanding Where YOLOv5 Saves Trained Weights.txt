@@ -1,0 +1,3 @@
+%ls runs/train/yolov5s_results2/weights
+
+##this line of code is checking for saved weight files from your YOLOv5 model training within the specified directory.
