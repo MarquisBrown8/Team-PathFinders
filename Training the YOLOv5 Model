@@ -1,0 +1,14 @@
+# train yolov5s on custom data for 61 epochs
+# time its performance
+%%time
+%cd /content/yolov5/
+!python train.py \
+  --img 640 \
+  --batch 16 \
+  --epochs 61 \
+  --data {dataset.location}/data.yaml \
+  --weights yolov5s.pt \
+  --name yolov5s_results  \
+  --cache
+
+##  this code snippet is using your dataset with a pre-trained YOLOv5 model and specifies different training parameters. At the end of the training run, you will have a custom trained YOLOv5 model fine-tuned for your dataset.
