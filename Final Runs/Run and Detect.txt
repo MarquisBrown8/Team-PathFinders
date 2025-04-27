@@ -1,0 +1,7 @@
+import glob
+from IPython.display import Image, display
+
+for imageName in glob.glob('runs/detect/exp22/*.jpg')[:13]: #assuming JPG
+    display(Image(filename=imageName))
+
+##This code snippet locates the first 13 JPG images located in the runs/detect/exp22/ directory and displays them within the Jupyter notebook.
