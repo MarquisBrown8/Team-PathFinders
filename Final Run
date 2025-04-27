@@ -1,7 +1,0 @@
-import glob
-from IPython.display import Image, display
-
-for imageName in glob.glob('runs/detect/exp22/*.jpg')[:13]: #assuming JPG
-    display(Image(filename=imageName))
-
-##this code snippet finds the first 13 JPG images in the 'runs/detect/exp22/' directory and displays them within the Jupyter Notebook. This is likely used to visualize the results of an object detection model, as the images in that folder may contain bounding boxes drawn around detected objects.
