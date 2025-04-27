@@ -1,0 +1,11 @@
+%cd /content/yolov5
+!pip install -q roboflow==1.1.48
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="IlrYlidUahRFBAmZhdgg")
+
+project = rf.workspace("plants-nbkoq").project("object-detection-leaves-ai")
+version = project.version(1)
+dataset = version.download("yolov5")
+
+## this code snippet sets up the connection to Roboflow, selects the specific dataset and version, and downloads it in the appropriate format for use with YOLOv5.
