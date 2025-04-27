@@ -1,3 +1,11 @@
-!pip install torch torchvision torchaudio
-!pip install opencv-python matplotlib pillow pandas
-!pip install seaborn
+# install dependencies as necessary
+!pip install -r requirements.txt
+!pip uninstall wandb -qy  # deprecated dependency
+import torch
+
+from IPython.display import Image, clear_output  # to display images
+
+# clear_output()
+print('Setup complete. Using torch %s %s' % (torch.__version__, torch.cuda.get_device_properties(0) if torch.cuda.is_available() else 'CPU'))
+
+##, this code snippet prepares the environment for the project by installing the necessary packages, importing essential libraries for deep learning and visualization, and confirming the PyTorch setup.
