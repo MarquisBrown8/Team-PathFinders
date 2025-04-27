@@ -1,0 +1,6 @@
+print("GROUND TRUTH AUGMENTED TRAINING DATA:")
+Image(filename='runs/train/yolov5s_results2/train_batch0.jpg', width=900)
+
+##Here's an example of what your training images look like after augmentation.
+##find this specific image file and display it for the user to see.
+##Make the image 900 pixels wide when you display it
