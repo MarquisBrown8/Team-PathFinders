@@ -8,6 +8,7 @@ Using AI-Powered Drone/AI Software to collect data and detech dying leaves and l
 
 ## Technologies
     Jupyter notebook - Used as a python IDE
+    Google Collab - Used for more CPU POWER
     Drone - Used to take photos
     Yolov5 - Used to processes the data
     Roboflow - Used for Annotating
