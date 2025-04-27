@@ -1,0 +1,3 @@
+Image(filename='runs/train/yolov5s_results2/val_batch0_labels.jpg', width=900)
+
+##this line of code is telling the notebook to find the image located at the specified path and display it within the notebook output with a width of 900 pixels. It is used to visualize the labels assigned to the validation data, likely to aid in the evaluation of the model's training process.
